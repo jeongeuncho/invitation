@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-round.css" rel="stylesheet">
+
+<title>초대장</title>
+<style>
+* {
+
+font-family: 'NanumSquareRoundBold';
+
+    }
+    body, h1, h2, h3, p, a {
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+        font-weight: normal;
+    }
+    .wrap {
+    width: 300px;
+    margin: auto;
+    }
+    h1{
+        font-size: 16px;
+        padding: 20px;
+        font-weight: 700;
+    }
+    .tt {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 500;
+        margin: auto;
+        height: 60px;
+        margin-bottom: 50px;
+    }
+    .tt>img{height: 60px;}
+    .pic{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        color: navy;
+        width: 300px;
+        margin: 20px ;
+    }
+    .pic>img{
+        width: 270px;
+        border: 3px solid navy;
+        margin-bottom: -15px;
+    }
+    .sch{
+        width: 255px;
+        background-color: darkblue;
+        margin-left:20px;
+        margin-right: 20px;
+        color:white;
+        padding: 10px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+    .schtt{
+        margin-top: 10px;
+        font-size: 8px;
+    }
+
+    .name {
+        width: 265px;
+        margin: 20px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 700;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+        color: gray;
+        text-align: left;
+        padding: 5px;
+        letter-spacing: 1px;
+    }
+    .main{
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .place {
+        text-align: center;
+        color: gray;
+        margin:20px;
+    }
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    .bottom > p {
+        color: darkblue;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .bottom > input {
+        width: 280px;
+        margin-bottom: 10px;
+    }
+    .bottom > textarea {
+        width: 280px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    .bottom > button {
+        width: 150px;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+        background-color: darkblue;
+        color: white;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+
+
+    
+
+
+
+
+</style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="tt">
+            <h1>Congratulates
+            <br/> on graduation</h1>
+            <img src="logo.jpg">
+        </div>
+
+        <div class="pic">
+            <img src="je.jpg">
+        </div>
+        <div class="sch">
+            SEOUL WOMEN'S UNIVERSITY
+            
+            <P class="schtt">서울여자대학교 산업디자인과</P>
+            
+        </div>
+        <div class="name">
+            Jeongeun Cho
+            <br/>조정은
+        </div>
+        <div class="main">
+            4년간의 대학 생활 속
+            <br/>수많은 밤샘 끝에
+            <br/>드디어 정은이가 진짜 졸업을 합니다.
+            <br/>짧고도 길었던 대학 생활 끝 
+            <p>새로운 시작을 축하해주세요 :)</p>
+            <p class="place">
+                2023. 08. 18. FRI. PM 12:00<br/>
+                서울여자대학교
+            </p>
+        </div>
+        <div class="bottom">
+            <p>축하메시지를 남겨주세요</p>
+            <input type="text" placeholder="이름">
+            <textarea placeholder= "메시지를 남겨주세요"></textarea>
+            <button>메시지 남기기</button>
+            
+        </div>
+    </div>
+</body>
+</html>
